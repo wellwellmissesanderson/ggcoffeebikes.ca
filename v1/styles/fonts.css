@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Steamwreck";
+  src: url('../assets/fonts/Steamwreck.otf');
+  letter-spacing: 3px;
+}
+
+@font-face {
+  font-family: "Steamwreck Italic";
+  src: url('../assets/fonts/Steamwreck_Italic.otf');
+  letter-spacing: 3px;
+}
