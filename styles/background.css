@@ -1,8 +1,10 @@
-.bg-img {
-  background-image: url(../assets/GearBG1_03.gif);
-}
 
-.bg-img__cover {
+
+/*.bg-img {
+  background-image: url(../assets/GearBG1_03.gif);
+}*/
+
+/*.bg-img__cover {
   background-position: center center;
   background-size: cover;
   position: absolute;
@@ -12,27 +14,5 @@
   margin: 0;
   padding: 0;
   z-index: -9000;
-}
+}*/
 
-.bg-img__filter {
-  /*-webkit-filter: grayscale(60%);*/
-}
-
-.bg-img__filter-animate {
-  -webkit-animation: filter-animation 11s infinite;
-}
-
-
-@-webkit-keyframes filter-animation {
-  0% {
-    -webkit-filter: grayscale(90%);
-  }
-
-  60% {
-    -webkit-filter: grayscale(30%);
-  }
-
-  100% {
-    -webkit-filter: grayscale(90%);
-  }
-}
