@@ -42,11 +42,17 @@
 .logo-container img {
   width: 100%;
   -webkit-filter: none;
+  transition: -webkit-filter 0.4s ease;
 }
 
 .filter-invert .logo-container img {
   -webkit-filter: invert(100%);
   transition: -webkit-filter 0.4s ease;
+}
+
+.logo-container img:hover {
+  -webkit-filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.1));
+  filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.1));
 }
 
 .filter-invert .page-warcry {
