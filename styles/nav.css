@@ -1,0 +1,35 @@
+nav {
+  margin: 0 auto;
+  width: 550px;
+  height: 100px;
+  margin-bottom: -50px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  list-style: none;
+  cursor: pointer;
+
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+body.filter-invert nav ul li {
+  color: white;
+}
+
+nav ul li:not(:first-child) {
+  margin: 0 0 0 30px;
+}
+
+nav .icon-home img {
+  width: 35px;
+}

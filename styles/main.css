@@ -1,4 +1,15 @@
+body {
+  font-family: "Heebo";
+  font-weight: 300;
+  overflow: hidden;
 
+  background-color: white;
+  transition: background-color 1s ease;
+}
+
+body.filter-invert {
+   background-color: black;
+}
 /*.bg-img__cover {
   background-position: center center;
   background-size: cover;
