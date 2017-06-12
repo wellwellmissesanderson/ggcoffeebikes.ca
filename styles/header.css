@@ -1,7 +1,8 @@
 .page-wrapper.flex-parent {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
+  justify-content: center;
 
   box-sizing: border-box;
 
@@ -9,23 +10,36 @@
   height: 100%;
 
   background-color: white;
-  transition: background-color 1.5s ease;
+  transition: background-color 1s ease;
 }
 
 .page-wrapper.filter-invert {
    background-color: black;
 }
 
-.logo-container.flex-child {
+.flex-child {
+  /*border: 2px solid tomato;*/
+  flex: 0 0 auto;
+  margin: 0 auto;
+}
+
+.logo-container {
   height: 150px; /* 207 */
   width: 338px; /* 467 */
+}
 
-  flex: 0 1 auto;
-  margin: auto;
+.page-warcry {
+  color: black;
+  opacity: 0.8;
+  margin-top: 20px;
+  font-family: "Heebo";
+  font-weight: 300;
+  font-style: italic;
+  width: 450px;
+  text-align: center;
 }
 
 .logo-container img {
-  height: 100%;
   width: 100%;
   -webkit-filter: none;
 }
@@ -33,4 +47,9 @@
 .filter-invert .logo-container img {
   -webkit-filter: invert(100%);
   transition: -webkit-filter 0.4s ease;
+}
+
+.filter-invert .page-warcry {
+  color: rgba(255, 255, 255, 0.6);
+
 }
