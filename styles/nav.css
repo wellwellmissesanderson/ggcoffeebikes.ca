@@ -19,7 +19,11 @@ nav ul li {
 
   font-size: 14px;
   letter-spacing: 2px;
+}
+
+a.nav-item {
   color: black;
+  text-decoration: none;
 }
 
 body.filter-invert nav ul li {

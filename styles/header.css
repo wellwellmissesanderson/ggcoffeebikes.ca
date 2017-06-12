@@ -33,13 +33,15 @@
 
 .logo-container img {
   width: 100%;
-  -webkit-filter: none;
   transition: all 0.4s ease;
+
+  -webkit-filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
+  filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
 }
 
 .logo-container img:hover {
-  -webkit-filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
-  filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
+  -webkit-filter: drop-shadow(6px 6px 0px rgba(0,0,0,0.2));
+  filter: drop-shadow(6px 6px 0px rgba(0,0,0,0.2));
 }
 
 .filter-invert .logo-container img {
