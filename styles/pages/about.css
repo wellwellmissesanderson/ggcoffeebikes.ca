@@ -1,0 +1,28 @@
+.flex-parent {
+  height: auto;
+}
+
+.flex-child.about-container {
+  min-height: 60%;
+  height: 100%;
+  width: 60%;
+
+  margin: 5% auto;
+  box-sizing: border-box;
+
+  background: rgba(0, 128, 128, 0.3);
+  border-radius: 4px;
+
+  padding: 7%;
+
+  animation: fadeIn .7s;
+  -moz-animation: fadeIn 0.7s; /* Firefox */
+  -webkit-animation: fadeIn 0.7s; /* Safari and Chrome */
+  -o-animation: fadeIn 0.7s; /* Opera */
+}
+
+.about-container p {
+  line-height: 1.6em;
+  text-align: center;
+}
+

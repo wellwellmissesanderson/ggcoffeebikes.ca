@@ -21,9 +21,14 @@ nav ul li {
   letter-spacing: 2px;
 }
 
+
 a.nav-item {
   color: black;
   text-decoration: none;
+}
+
+a.nav-item:hover {
+  color: rgba(0,128,128,0.7);
 }
 
 body.filter-invert nav ul li {

@@ -1,0 +1,99 @@
+
+/* Fade In */
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeIn { /* Firefox */
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+}
+@-webkit-keyframes fadeIn { /* Safari and Chrome */
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn { /* Opera */
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+
+
+/* Fade In with halfway delay */
+@keyframes fadeInDelay {
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeInDelay { /* Firefox */
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+}
+@-webkit-keyframes fadeInDelay { /* Safari and Chrome */
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeInDelay { /* Opera */
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+

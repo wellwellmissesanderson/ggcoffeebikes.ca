@@ -1,20 +1,4 @@
-.page-wrapper.flex-parent {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
 
-  box-sizing: border-box;
-
-  padding: 20px;
-  height: 100%;
-}
-
-.flex-child {
-  /*border: 2px solid tomato;*/
-  flex: 0 0 auto;
-  margin: 0 auto;
-}
 
 .logo-container {
   height: 150px; /* 207 */
@@ -29,19 +13,24 @@
   width: 450px;
   text-align: center;
   line-height: 1.7em;
+
+  animation: fadeInDelay 2.8s;
+  -moz-animation: fadeInDelay 2.8s; /* Firefox */
+  -webkit-animation: fadeInDelay 2.8s; /* Safari and Chrome */
+  -o-animation: fadeInDelay 2.8s; /* Opera */
 }
 
 .logo-container img {
   width: 100%;
-  transition: all 0.4s ease;
+  transition: all .4s ease-in-out;
 
   -webkit-filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
   filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
 }
 
 .logo-container img:hover {
-  -webkit-filter: drop-shadow(6px 6px 0px rgba(0,0,0,0.2));
-  filter: drop-shadow(6px 6px 0px rgba(0,0,0,0.2));
+  -webkit-filter: drop-shadow(5px 5px 0px rgba(0,0,0,0.2));
+  filter: drop-shadow(5px 5px 0px rgba(0,0,0,0.2));
 }
 
 .filter-invert .logo-container img {
