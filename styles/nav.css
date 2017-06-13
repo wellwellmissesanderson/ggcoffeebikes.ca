@@ -52,7 +52,7 @@ a.nav-item:hover {
   transition: color .3s ease;
 }
 
-body.filter-invert nav ul li {
+body.filter-invert nav a {
   color: white;
 }
 

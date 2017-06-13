@@ -40,5 +40,5 @@
 }
 
 .filter-invert .page-warcry {
-  color: rgba(0, 128, 128, 1);
+  color: rgba(255, 255, 255, .6);
 }
