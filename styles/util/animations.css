@@ -1,48 +1,37 @@
 
 /* Fade In */
 @keyframes fadeIn {
-    0% {
+    from {
         opacity:0;
     }
-    50% {
-        opacity:0;
-    }
-    100% {
+    to {
         opacity:1;
     }
 }
-@-moz-keyframes fadeIn { /* Firefox */
-    0% {
-        opacity:0;
-    }
-    50% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-}
-}
+
 @-webkit-keyframes fadeIn { /* Safari and Chrome */
-    0% {
+    from {
         opacity:0;
     }
-    50% {
+    to {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadeIn { /* Firefox */
+    from {
         opacity:0;
     }
-    100% {
+    to {
         opacity:1;
     }
 }
 
 @-o-keyframes fadeIn { /* Opera */
-    0% {
+    from {
         opacity:0;
     }
-    50% {
-        opacity:0;
-    }
-    100% {
+    to {
         opacity:1;
     }
 }

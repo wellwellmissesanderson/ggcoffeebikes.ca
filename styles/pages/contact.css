@@ -1,0 +1,16 @@
+address span {
+  background: rgba(0,128,128,0.4);
+  color: white;
+  display: inline;
+}
+
+address {
+  padding: 14px 0;
+}
+
+.flex-child.contact-container {
+  animation: fadeIn 1.7s;
+  -webkit-animation: fadeIn 1.7s; /* Safari and Chrome */
+  -moz-animation: fadeIn 1.7s; /* Firefox */
+  -o-animation: fadeIn 1.7s; /* Opera */
+}

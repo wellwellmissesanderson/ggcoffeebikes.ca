@@ -1,7 +1,4 @@
-
-
 .logo-container {
-  height: 150px; /* 207 */
   width: 338px; /* 467 */
 }
 
@@ -13,19 +10,24 @@
   width: 450px;
   text-align: center;
   line-height: 1.7em;
+  cursor: default;
 
-  animation: fadeInDelay 2.8s;
-  -moz-animation: fadeInDelay 2.8s; /* Firefox */
-  -webkit-animation: fadeInDelay 2.8s; /* Safari and Chrome */
-  -o-animation: fadeInDelay 2.8s; /* Opera */
+  animation: fadeInDelay 2.4s;
+  -moz-animation: fadeInDelay 2.4s; /* Firefox */
+  -webkit-animation: fadeInDelay 2.4s; /* Safari and Chrome */
+  -o-animation: fadeInDelay 2.4s; /* Opera */
 }
 
 .logo-container img {
   width: 100%;
-  transition: all .4s ease-in-out;
 
   -webkit-filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
   filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
+
+  animation: fadeInDelay .7s;
+  -moz-animation: fadeInDelay .7s; /* Firefox */
+  -webkit-animation: fadeInDelay .7s; /* Safari and Chrome */
+  -o-animation: fadeInDelay .7s; /* Opera */
 }
 
 .logo-container img:hover {
@@ -38,5 +40,5 @@
 }
 
 .filter-invert .page-warcry {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 128, 128, 1);
 }

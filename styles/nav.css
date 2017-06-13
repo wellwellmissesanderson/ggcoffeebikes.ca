@@ -1,6 +1,6 @@
 nav {
   margin: 0 auto;
-  width: 550px;
+  width: 300px;
   height: 100px;
   margin-bottom: -50px;
 
@@ -11,14 +11,34 @@ nav {
   align-items: center;
 }
 
+.home nav {
+  animation: fadeInDelay 2.3s;
+    -moz-animation: fadeInDelay 2.3s; /* Firefox */
+    -webkit-animation: fadeInDelay 2.3s; /* Safari and Chrome */
+    -o-animation: fadeInDelay 2.3s; /* Opera */
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;/*
+  align-items: center;*/
+
+  width: 100%;
+  padding: 0;
+}
+
 nav ul li {
-  display: inline-block;
   text-transform: uppercase;
   list-style: none;
-  cursor: pointer;
 
   font-size: 14px;
   letter-spacing: 2px;
+  text-align: center;
+
+  flex: 1 0;
+
 }
 
 
@@ -29,14 +49,11 @@ a.nav-item {
 
 a.nav-item:hover {
   color: rgba(0,128,128,0.7);
+  transition: color .3s ease;
 }
 
 body.filter-invert nav ul li {
   color: white;
-}
-
-nav ul li:not(:first-child) {
-  margin: 0 0 0 30px;
 }
 
 nav .icon-home img {
