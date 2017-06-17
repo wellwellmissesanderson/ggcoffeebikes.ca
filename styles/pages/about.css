@@ -8,11 +8,6 @@
   width: 60%;
 
   margin: auto;
-
-  animation: fadeIn 1.7s;
-  -webkit-animation: fadeIn 1.7s; /* Safari and Chrome */
-  -moz-animation: fadeIn 1.7s; /* Firefox */
-  -o-animation: fadeIn 1.7s; /* Opera */
 }
 
 .about-container p,
