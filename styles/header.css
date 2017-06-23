@@ -18,8 +18,8 @@
   -o-animation: fadeInDelay 2.4s; /* Opera */
 }
 
-.logo-container img {
-  width: 100%;
+.img-filter {
+  
 
   -webkit-filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
   filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.2));
@@ -30,12 +30,12 @@
   -o-animation: fadeInDelay .7s; /* Opera */
 }
 
-.logo-container img:hover {
+.img-filter :hover {
   -webkit-filter: drop-shadow(5px 5px 0px rgba(0,0,0,0.2));
   filter: drop-shadow(5px 5px 0px rgba(0,0,0,0.2));
 }
 
-.filter-invert .logo-container img {
+.filter-invert .img-filter {
   -webkit-filter: invert(100%);
 }
 
